@@ -92,9 +92,9 @@ BEGIN
             VALUE "CompanyName", "Studio Di Nisio - Censea Due" "\0"
             VALUE "FileDescription", "Assistenza Studio Di Nisio - Censea Due" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "rustdesk" "\0"
+            VALUE "InternalName", "AssistenzaDiNisio" "\0"
             VALUE "LegalCopyright", "Basato su RustDesk (AGPL-3.0), © Purslane Tech Pte. Ltd." "\0"
-            VALUE "OriginalFilename", "rustdesk.exe" "\0"
+            VALUE "OriginalFilename", "AssistenzaDiNisio.exe" "\0"
             VALUE "ProductName", "Assistenza Studio Di Nisio - Censea Due" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
