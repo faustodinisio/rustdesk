@@ -135,14 +135,17 @@ class _DesktopHomePageState extends State<DesktopHomePage>
           children: [
             Column(
               children: [
-                SingleChildScrollView(
-                  controller: _leftPaneScrollController,
-                  child: Column(
-                    key: _childKey,
-                    children: children,
+                // Censea: colonna scorrevole, altrimenti con logo e testi
+                // italiani il tasto «Installa» finisce sotto il bordo.
+                Expanded(
+                  child: SingleChildScrollView(
+                    controller: _leftPaneScrollController,
+                    child: Column(
+                      key: _childKey,
+                      children: children,
+                    ),
                   ),
                 ),
-                Expanded(child: Container())
               ],
             ),
             if (isOutgoingOnly)
